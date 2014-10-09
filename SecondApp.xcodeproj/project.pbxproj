@@ -9,11 +9,30 @@
 /* Begin PBXBuildFile section */
 		DADC8C6219E4F82D0071F3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C6119E4F82D0071F3A3 /* main.m */; };
 		DADC8C6519E4F82D0071F3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C6419E4F82D0071F3A3 /* AppDelegate.m */; };
-		DADC8C6819E4F82D0071F3A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C6719E4F82D0071F3A3 /* ViewController.m */; };
+		DADC8C6819E4F82D0071F3A3 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C6719E4F82D0071F3A3 /* WelcomeVC.m */; };
 		DADC8C6B19E4F82D0071F3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C6919E4F82D0071F3A3 /* Main.storyboard */; };
 		DADC8C6D19E4F82D0071F3A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C6C19E4F82D0071F3A3 /* Images.xcassets */; };
 		DADC8C7019E4F82D0071F3A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C6E19E4F82D0071F3A3 /* LaunchScreen.xib */; };
 		DADC8C7C19E4F82D0071F3A3 /* SecondAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C7B19E4F82D0071F3A3 /* SecondAppTests.m */; };
+		DADC8C8619E50C870071F3A3 /* InitialImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C8519E50C870071F3A3 /* InitialImage.jpg */; };
+		DADC8C8919E513480071F3A3 /* map90.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C8719E513480071F3A3 /* map90.png */; };
+		DADC8C8A19E513480071F3A3 /* user146.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C8819E513480071F3A3 /* user146.png */; };
+		DADC8C9019E5158C0071F3A3 /* left163.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C8C19E5158C0071F3A3 /* left163.png */; };
+		DADC8C9119E5158C0071F3A3 /* map90.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C8D19E5158C0071F3A3 /* map90.png */; };
+		DADC8C9219E5158C0071F3A3 /* right164.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C8E19E5158C0071F3A3 /* right164.png */; };
+		DADC8C9319E5158C0071F3A3 /* user146.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8C8F19E5158C0071F3A3 /* user146.png */; };
+		DADC8C9619E63E1D0071F3A3 /* PlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C9519E63E1D0071F3A3 /* PlacesVC.m */; };
+		DADC8C9B19E63EFC0071F3A3 /* PlacesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C9A19E63EFC0071F3A3 /* PlacesViewCell.m */; };
+		DADC8C9E19E642D00071F3A3 /* FriendsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C9D19E642D00071F3A3 /* FriendsViewCell.m */; };
+		DADC8CA119E6463C0071F3A3 /* FriendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8CA019E6463C0071F3A3 /* FriendsVC.m */; };
+		DADC8CAB19E676F20071F3A3 /* Baja_California_Sur.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CA319E676F20071F3A3 /* Baja_California_Sur.png */; };
+		DADC8CAC19E676F20071F3A3 /* Chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CA419E676F20071F3A3 /* Chiapas.png */; };
+		DADC8CAD19E676F20071F3A3 /* Guadalajara.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CA519E676F20071F3A3 /* Guadalajara.png */; };
+		DADC8CAE19E676F20071F3A3 /* Michoacan.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CA619E676F20071F3A3 /* Michoacan.png */; };
+		DADC8CAF19E676F20071F3A3 /* Nuevo_Leon.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CA719E676F20071F3A3 /* Nuevo_Leon.png */; };
+		DADC8CB019E676F20071F3A3 /* Quintana_Roo.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CA819E676F20071F3A3 /* Quintana_Roo.png */; };
+		DADC8CB119E676F20071F3A3 /* Sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CA919E676F20071F3A3 /* Sinaloa.png */; };
+		DADC8CB219E676F20071F3A3 /* Veracruz.png in Resources */ = {isa = PBXBuildFile; fileRef = DADC8CAA19E676F20071F3A3 /* Veracruz.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +51,37 @@
 		DADC8C6119E4F82D0071F3A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DADC8C6319E4F82D0071F3A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DADC8C6419E4F82D0071F3A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DADC8C6619E4F82D0071F3A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DADC8C6719E4F82D0071F3A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DADC8C6619E4F82D0071F3A3 /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
+		DADC8C6719E4F82D0071F3A3 /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
 		DADC8C6A19E4F82D0071F3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DADC8C6C19E4F82D0071F3A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DADC8C6F19E4F82D0071F3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DADC8C7519E4F82D0071F3A3 /* SecondAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADC8C7A19E4F82D0071F3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DADC8C7B19E4F82D0071F3A3 /* SecondAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondAppTests.m; sourceTree = "<group>"; };
+		DADC8C8519E50C870071F3A3 /* InitialImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InitialImage.jpg; sourceTree = "<group>"; };
+		DADC8C8719E513480071F3A3 /* map90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map90.png; sourceTree = "<group>"; };
+		DADC8C8819E513480071F3A3 /* user146.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user146.png; sourceTree = "<group>"; };
+		DADC8C8C19E5158C0071F3A3 /* left163.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left163.png; sourceTree = "<group>"; };
+		DADC8C8D19E5158C0071F3A3 /* map90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map90.png; sourceTree = "<group>"; };
+		DADC8C8E19E5158C0071F3A3 /* right164.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right164.png; sourceTree = "<group>"; };
+		DADC8C8F19E5158C0071F3A3 /* user146.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user146.png; sourceTree = "<group>"; };
+		DADC8C9419E63E1D0071F3A3 /* PlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesVC.h; sourceTree = "<group>"; };
+		DADC8C9519E63E1D0071F3A3 /* PlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesVC.m; sourceTree = "<group>"; };
+		DADC8C9919E63EFC0071F3A3 /* PlacesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesViewCell.h; sourceTree = "<group>"; };
+		DADC8C9A19E63EFC0071F3A3 /* PlacesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewCell.m; sourceTree = "<group>"; };
+		DADC8C9C19E642D00071F3A3 /* FriendsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewCell.h; sourceTree = "<group>"; };
+		DADC8C9D19E642D00071F3A3 /* FriendsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewCell.m; sourceTree = "<group>"; };
+		DADC8C9F19E6463C0071F3A3 /* FriendsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsVC.h; sourceTree = "<group>"; };
+		DADC8CA019E6463C0071F3A3 /* FriendsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsVC.m; sourceTree = "<group>"; };
+		DADC8CA319E676F20071F3A3 /* Baja_California_Sur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baja_California_Sur.png; sourceTree = "<group>"; };
+		DADC8CA419E676F20071F3A3 /* Chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chiapas.png; sourceTree = "<group>"; };
+		DADC8CA519E676F20071F3A3 /* Guadalajara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guadalajara.png; sourceTree = "<group>"; };
+		DADC8CA619E676F20071F3A3 /* Michoacan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Michoacan.png; sourceTree = "<group>"; };
+		DADC8CA719E676F20071F3A3 /* Nuevo_Leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nuevo_Leon.png; sourceTree = "<group>"; };
+		DADC8CA819E676F20071F3A3 /* Quintana_Roo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quintana_Roo.png; sourceTree = "<group>"; };
+		DADC8CA919E676F20071F3A3 /* Sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sinaloa.png; sourceTree = "<group>"; };
+		DADC8CAA19E676F20071F3A3 /* Veracruz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Veracruz.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +123,10 @@
 		DADC8C5E19E4F82D0071F3A3 /* SecondApp */ = {
 			isa = PBXGroup;
 			children = (
+				DADC8C9819E63ED30071F3A3 /* Customized */,
+				DADC8C9719E63EC20071F3A3 /* ViewControllers */,
 				DADC8C6319E4F82D0071F3A3 /* AppDelegate.h */,
 				DADC8C6419E4F82D0071F3A3 /* AppDelegate.m */,
-				DADC8C6619E4F82D0071F3A3 /* ViewController.h */,
-				DADC8C6719E4F82D0071F3A3 /* ViewController.m */,
 				DADC8C6919E4F82D0071F3A3 /* Main.storyboard */,
 				DADC8C6C19E4F82D0071F3A3 /* Images.xcassets */,
 				DADC8C6E19E4F82D0071F3A3 /* LaunchScreen.xib */,
@@ -96,6 +138,11 @@
 		DADC8C5F19E4F82D0071F3A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DADC8CA219E676F20071F3A3 /* flags */,
+				DADC8C8B19E5158C0071F3A3 /* icons */,
+				DADC8C8719E513480071F3A3 /* map90.png */,
+				DADC8C8819E513480071F3A3 /* user146.png */,
+				DADC8C8519E50C870071F3A3 /* InitialImage.jpg */,
 				DADC8C6019E4F82D0071F3A3 /* Info.plist */,
 				DADC8C6119E4F82D0071F3A3 /* main.m */,
 			);
@@ -117,6 +164,56 @@
 				DADC8C7A19E4F82D0071F3A3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADC8C8B19E5158C0071F3A3 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				DADC8C8C19E5158C0071F3A3 /* left163.png */,
+				DADC8C8D19E5158C0071F3A3 /* map90.png */,
+				DADC8C8E19E5158C0071F3A3 /* right164.png */,
+				DADC8C8F19E5158C0071F3A3 /* user146.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		DADC8C9719E63EC20071F3A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DADC8C6619E4F82D0071F3A3 /* WelcomeVC.h */,
+				DADC8C6719E4F82D0071F3A3 /* WelcomeVC.m */,
+				DADC8C9419E63E1D0071F3A3 /* PlacesVC.h */,
+				DADC8C9519E63E1D0071F3A3 /* PlacesVC.m */,
+				DADC8C9F19E6463C0071F3A3 /* FriendsVC.h */,
+				DADC8CA019E6463C0071F3A3 /* FriendsVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DADC8C9819E63ED30071F3A3 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				DADC8C9919E63EFC0071F3A3 /* PlacesViewCell.h */,
+				DADC8C9A19E63EFC0071F3A3 /* PlacesViewCell.m */,
+				DADC8C9C19E642D00071F3A3 /* FriendsViewCell.h */,
+				DADC8C9D19E642D00071F3A3 /* FriendsViewCell.m */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		DADC8CA219E676F20071F3A3 /* flags */ = {
+			isa = PBXGroup;
+			children = (
+				DADC8CA319E676F20071F3A3 /* Baja_California_Sur.png */,
+				DADC8CA419E676F20071F3A3 /* Chiapas.png */,
+				DADC8CA519E676F20071F3A3 /* Guadalajara.png */,
+				DADC8CA619E676F20071F3A3 /* Michoacan.png */,
+				DADC8CA719E676F20071F3A3 /* Nuevo_Leon.png */,
+				DADC8CA819E676F20071F3A3 /* Quintana_Roo.png */,
+				DADC8CA919E676F20071F3A3 /* Sinaloa.png */,
+				DADC8CAA19E676F20071F3A3 /* Veracruz.png */,
+			);
+			path = flags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +265,7 @@
 				TargetAttributes = {
 					DADC8C5B19E4F82D0071F3A3 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = QXF33N93KH;
 					};
 					DADC8C7419E4F82D0071F3A3 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -199,9 +297,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADC8C9319E5158C0071F3A3 /* user146.png in Resources */,
+				DADC8C9219E5158C0071F3A3 /* right164.png in Resources */,
+				DADC8CAD19E676F20071F3A3 /* Guadalajara.png in Resources */,
+				DADC8CB019E676F20071F3A3 /* Quintana_Roo.png in Resources */,
+				DADC8C8619E50C870071F3A3 /* InitialImage.jpg in Resources */,
+				DADC8CAC19E676F20071F3A3 /* Chiapas.png in Resources */,
 				DADC8C6B19E4F82D0071F3A3 /* Main.storyboard in Resources */,
 				DADC8C7019E4F82D0071F3A3 /* LaunchScreen.xib in Resources */,
+				DADC8C9119E5158C0071F3A3 /* map90.png in Resources */,
+				DADC8C9019E5158C0071F3A3 /* left163.png in Resources */,
+				DADC8CAF19E676F20071F3A3 /* Nuevo_Leon.png in Resources */,
+				DADC8C8919E513480071F3A3 /* map90.png in Resources */,
+				DADC8C8A19E513480071F3A3 /* user146.png in Resources */,
+				DADC8CAE19E676F20071F3A3 /* Michoacan.png in Resources */,
+				DADC8CB119E676F20071F3A3 /* Sinaloa.png in Resources */,
+				DADC8CAB19E676F20071F3A3 /* Baja_California_Sur.png in Resources */,
 				DADC8C6D19E4F82D0071F3A3 /* Images.xcassets in Resources */,
+				DADC8CB219E676F20071F3A3 /* Veracruz.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DADC8C6819E4F82D0071F3A3 /* ViewController.m in Sources */,
+				DADC8C9E19E642D00071F3A3 /* FriendsViewCell.m in Sources */,
+				DADC8C6819E4F82D0071F3A3 /* WelcomeVC.m in Sources */,
+				DADC8C9B19E63EFC0071F3A3 /* PlacesViewCell.m in Sources */,
 				DADC8C6519E4F82D0071F3A3 /* AppDelegate.m in Sources */,
+				DADC8C9619E63E1D0071F3A3 /* PlacesVC.m in Sources */,
 				DADC8C6219E4F82D0071F3A3 /* main.m in Sources */,
+				DADC8CA119E6463C0071F3A3 /* FriendsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +460,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SecondApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,9 +476,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SecondApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +541,7 @@
 				DADC8C8119E4F82D0071F3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DADC8C8219E4F82D0071F3A3 /* Build configuration list for PBXNativeTarget "SecondAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +550,7 @@
 				DADC8C8419E4F82D0071F3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,13 +17,13 @@
 
 @implementation PlacesVC
 NSMutableArray *maNames;
-NSMutableArray *maImages;
+NSMutableArray *friendWorkImages;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     maNames =  [NSMutableArray arrayWithObjects: @"Baja California Sur", @"Chiapas", @"Guadalajara", @"Michoacan", @"Nuevo Leon", @"Quintana Roo", @"Sinaloa", @"Veracruz", nil];
-    maImages    =  [NSMutableArray arrayWithObjects: @"Baja_California_Sur.png", @"Chiapas.png", @"Guadalajara.png", @"Michoacan.png", @"Nuevo_Leon.png", @"Quintana_Roo.png", @"Sinaloa.png", @"Veracruz.png", nil];
+    friendWorkImages    =  [NSMutableArray arrayWithObjects: @"Baja_California_Sur.png", @"Chiapas.png", @"Guadalajara.png", @"Michoacan.png", @"Nuevo_Leon.png", @"Quintana_Roo.png", @"Sinaloa.png", @"Veracruz.png", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,7 +53,7 @@ NSMutableArray *maImages;
     }
     
     cell.txtPlace.text = maNames[indexPath.row];
-    cell.imgPlace.image = [UIImage imageNamed:maImages[indexPath.row]];
+    cell.imgPlace.image = [UIImage imageNamed:friendWorkImages[indexPath.row]];
     
     return cell;
 }

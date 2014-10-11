@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65175D0119E8D174001270A3 /* bart.png in Resources */ = {isa = PBXBuildFile; fileRef = 65175CFA19E8D174001270A3 /* bart.png */; };
+		65175D0219E8D174001270A3 /* bobo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65175CFB19E8D174001270A3 /* bobo.png */; };
+		65175D0319E8D174001270A3 /* homer.png in Resources */ = {isa = PBXBuildFile; fileRef = 65175CFC19E8D174001270A3 /* homer.png */; };
+		65175D0419E8D174001270A3 /* lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 65175CFD19E8D174001270A3 /* lisa.png */; };
+		65175D0519E8D174001270A3 /* marge.png in Resources */ = {isa = PBXBuildFile; fileRef = 65175CFE19E8D174001270A3 /* marge.png */; };
+		65175D0619E8D174001270A3 /* ruprecht.png in Resources */ = {isa = PBXBuildFile; fileRef = 65175CFF19E8D174001270A3 /* ruprecht.png */; };
+		65175D0719E8D174001270A3 /* scully.png in Resources */ = {isa = PBXBuildFile; fileRef = 65175D0019E8D174001270A3 /* scully.png */; };
 		DADC8C6219E4F82D0071F3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C6119E4F82D0071F3A3 /* main.m */; };
 		DADC8C6519E4F82D0071F3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C6419E4F82D0071F3A3 /* AppDelegate.m */; };
 		DADC8C6819E4F82D0071F3A3 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC8C6719E4F82D0071F3A3 /* WelcomeVC.m */; };
@@ -46,6 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65175CFA19E8D174001270A3 /* bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart.png; sourceTree = "<group>"; };
+		65175CFB19E8D174001270A3 /* bobo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bobo.png; sourceTree = "<group>"; };
+		65175CFC19E8D174001270A3 /* homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homer.png; sourceTree = "<group>"; };
+		65175CFD19E8D174001270A3 /* lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa.png; sourceTree = "<group>"; };
+		65175CFE19E8D174001270A3 /* marge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marge.png; sourceTree = "<group>"; };
+		65175CFF19E8D174001270A3 /* ruprecht.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruprecht.png; sourceTree = "<group>"; };
+		65175D0019E8D174001270A3 /* scully.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scully.png; sourceTree = "<group>"; };
 		DADC8C5C19E4F82D0071F3A3 /* SecondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADC8C6019E4F82D0071F3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DADC8C6119E4F82D0071F3A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +116,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65175CF919E8D174001270A3 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				65175CFA19E8D174001270A3 /* bart.png */,
+				65175CFB19E8D174001270A3 /* bobo.png */,
+				65175CFC19E8D174001270A3 /* homer.png */,
+				65175CFD19E8D174001270A3 /* lisa.png */,
+				65175CFE19E8D174001270A3 /* marge.png */,
+				65175CFF19E8D174001270A3 /* ruprecht.png */,
+				65175D0019E8D174001270A3 /* scully.png */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
 		DADC8C5319E4F82D0071F3A3 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +166,7 @@
 		DADC8C5F19E4F82D0071F3A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65175CF919E8D174001270A3 /* Friends */,
 				DADC8CA219E676F20071F3A3 /* flags */,
 				DADC8C8B19E5158C0071F3A3 /* icons */,
 				DADC8C8719E513480071F3A3 /* map90.png */,
@@ -298,17 +327,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				DADC8C9319E5158C0071F3A3 /* user146.png in Resources */,
+				65175D0719E8D174001270A3 /* scully.png in Resources */,
+				65175D0219E8D174001270A3 /* bobo.png in Resources */,
 				DADC8C9219E5158C0071F3A3 /* right164.png in Resources */,
 				DADC8CAD19E676F20071F3A3 /* Guadalajara.png in Resources */,
 				DADC8CB019E676F20071F3A3 /* Quintana_Roo.png in Resources */,
 				DADC8C8619E50C870071F3A3 /* InitialImage.jpg in Resources */,
 				DADC8CAC19E676F20071F3A3 /* Chiapas.png in Resources */,
 				DADC8C6B19E4F82D0071F3A3 /* Main.storyboard in Resources */,
+				65175D0419E8D174001270A3 /* lisa.png in Resources */,
 				DADC8C7019E4F82D0071F3A3 /* LaunchScreen.xib in Resources */,
 				DADC8C9119E5158C0071F3A3 /* map90.png in Resources */,
 				DADC8C9019E5158C0071F3A3 /* left163.png in Resources */,
+				65175D0619E8D174001270A3 /* ruprecht.png in Resources */,
+				65175D0519E8D174001270A3 /* marge.png in Resources */,
 				DADC8CAF19E676F20071F3A3 /* Nuevo_Leon.png in Resources */,
 				DADC8C8919E513480071F3A3 /* map90.png in Resources */,
+				65175D0319E8D174001270A3 /* homer.png in Resources */,
+				65175D0119E8D174001270A3 /* bart.png in Resources */,
 				DADC8C8A19E513480071F3A3 /* user146.png in Resources */,
 				DADC8CAE19E676F20071F3A3 /* Michoacan.png in Resources */,
 				DADC8CB119E676F20071F3A3 /* Sinaloa.png in Resources */,

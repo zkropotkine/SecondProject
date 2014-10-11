@@ -14,14 +14,31 @@
 @end
 
 @implementation FriendsVC
-NSMutableArray *maNames;
-NSMutableArray *maImages;
+//WORK
+NSMutableArray *friendWorkNames;
+NSMutableArray *friendWorkSurenames;
+NSMutableArray *friendWorkImages;
+NSMutableArray *friendWorkAges;
+
+// SCHOOL
+NSMutableArray *friendSchoolNames;
+NSMutableArray *friendSchoolSurenames;
+NSMutableArray *friendSchoolImages;
+NSMutableArray *friendSchoolAges;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //WORK
+    friendWorkNames     = [NSMutableArray arrayWithObjects: @"Barto", @"Homero", @"Lisa", @"Marge", nil];
+    friendWorkSurenames = [NSMutableArray arrayWithObjects: @"Simpson", @"Simpson", @"Simpson", @"Bouvier", nil];
+    friendWorkAges      = [NSMutableArray arrayWithObjects: @"10", @"36", @"8", @"34", nil];
+    friendWorkImages    = [NSMutableArray arrayWithObjects: @"bart.png", @"homer.png", @"lisa.png", @"marge.png", nil];
     
-    maNames =  [NSMutableArray arrayWithObjects: @"Baja California Sur", @"Chiapas", @"Guadalajara", @"Michoacan", @"Nuevo Leon", @"Quintana Roo", @"Sinaloa", @"Veracruz", nil];
-    maImages    =  [NSMutableArray arrayWithObjects: @"Baja_California_Sur.png", @"Chiapas.png", @"Guadalajara.png", @"Michoacan.png", @"Nuevo_Leon.png", @"Quintana_Roo.png", @"Sinaloa.png", @"Veracruz.png", nil];
+    // SCHOOL
+    friendSchoolNames     = [NSMutableArray arrayWithObjects: @"Santa's", @"Dana", @"Bobo", nil];
+    friendSchoolSurenames = [NSMutableArray arrayWithObjects: @"Helper", @"Scully", @"Burns", nil];
+    friendSchoolAges      = [NSMutableArray arrayWithObjects: @"5", @"50", @"80", nil];
+    friendSchoolImages    = [NSMutableArray arrayWithObjects: @"ruprecht.png", @"scully.png", @"bobo.png", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,7 +53,11 @@ NSMutableArray *maImages;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-   return [maNames count];
+    if (self.scFriendsSwitch.selectedSegmentIndex == 0) {
+        return [friendWorkNames count];
+    } else {
+        return [friendSchoolNames count];
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -50,12 +71,24 @@ NSMutableArray *maImages;
         cell = [[FriendsViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
 
-    cell.txtName.text = maNames[indexPath.row];
-    cell.txtLastName.text =maNames[indexPath.row];
-    cell.txtAge.text = maNames[indexPath.row];
-    cell.imgFriend.image = [UIImage imageNamed:maImages[indexPath.row]];
+    
+    if (self.scFriendsSwitch.selectedSegmentIndex == 0) {
+        cell.txtName.text = friendWorkNames[indexPath.row];
+        cell.txtLastName.text =friendWorkSurenames[indexPath.row];
+        cell.txtAge.text = friendWorkAges[indexPath.row];
+        cell.imgFriend.image = [UIImage imageNamed:friendWorkImages[indexPath.row]];
+    } else {
+        cell.txtName.text = friendSchoolNames[indexPath.row];
+        cell.txtLastName.text =friendSchoolSurenames[indexPath.row];
+        cell.txtAge.text = friendSchoolAges[indexPath.row];
+        cell.imgFriend.image = [UIImage imageNamed:friendSchoolImages[indexPath.row]];
+    }
+
     
     return cell;
 }
 
+- (IBAction)segContFriendPressed:(id)sender {
+    [self.tblFriends reloadData];
+}
 @end

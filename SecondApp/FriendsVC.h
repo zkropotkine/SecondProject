@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FriendsVC : UIViewController
+@property (strong, nonatomic) IBOutlet UISegmentedControl *scFriendsSwitch;
 @property (strong, nonatomic) IBOutlet UITableView *tblFriends;
+- (IBAction)segContFriendPressed:(id)sender;
 
 @end
